@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "SamsungOneUI";
+  src: url("SamsungOneUI-Thin.ttf") format("truetype");
+}
+@font-face {
+  src: url("SamsungOneUI-Light.ttf") format("truetype");
+  font-family: "SamsungOneUI";
+  font-weight: 300;
+}
+@font-face {
+  src: url("SamsungOneUI-Regular.ttf") format("truetype");
+  font-family: "SamsungOneUI";
+  font-weight: 400;
+}
+@font-face {
+  src: url("SamsungOneUI-Medium.ttf") format("truetype");
+  font-family: "SamsungOneUI";
+  font-weight: 500;
+}
+@font-face {
+  src: url("SamsungOneUI-Bold.ttf") format("truetype");
+  font-family: "SamsungOneUI";
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "SamsungSharpSans";
+  src: url("SamsungSharpSans-Regular.woff") format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SamsungSharpSans";
+  src:
+    url("SamsungSharpSans-Medium.woff") format("woff"),
+    url("SamsungSharpSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "SamsungSharpSans";
+  src:
+    url("SamsungSharpSans-Bold.woff") format("woff"),
+    url("SamsungSharpSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+:root {
+  font-family: "SamsungSharpSans", "SamsungOneUI", sans-serif;
+  font-weight: 700;
+}
